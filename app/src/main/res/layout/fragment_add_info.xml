@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ModificarBaseDatos.fragmentAddInfo">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:text="Agrega tu imagen"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="25dp"
+        android:id="@+id/texto2"
+        android:layout_below="@+id/raised"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <EditText
+            android:id="@+id/etitulo"
+            android:hint="Titulo"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="25dp"
+        android:id="@+id/texto3"
+        android:layout_below="@+id/raised"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <EditText
+            android:id="@+id/etpregunta"
+            android:hint="Pregunta"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Spinner
+        android:entries="@array/niveles"
+        android:drawSelectorOnTop="true"
+        android:id="@+id/spniveles"
+        android:layout_marginTop="25dp"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></Spinner>
+
+    <Spinner
+        android:entries="@array/categoria"
+        android:drawSelectorOnTop="true"
+        android:id="@+id/spncategorias"
+        android:layout_marginTop="25dp"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></Spinner>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:id="@+id/btnagregar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Agregar" />
+
+</LinearLayout>

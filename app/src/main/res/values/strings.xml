@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LearnEnglish</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="niveles">
+        <item>Nivel 1</item>
+        <item>Nivel 3</item>
+    </string-array>
+    <string-array name="categoria">
+        <item>Colores</item>
+        <item>Medios de Transporte</item>
+        <item>Mascotas</item>
+        <item>Numeros</item>
+        <item>Objetos</item>
+    </string-array>
+</resources>

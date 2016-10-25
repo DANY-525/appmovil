@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorTercer"
+    tools:context=".Niveles.TercerNivel">
+
+    <TableLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+<TableRow>
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:layout_width="@dimen/layout3"
+        android:layout_height="@dimen/layout3"
+
+
+        android:src="@drawable/tim"/>
+
+    <ImageView
+     android:layout_height="@dimen/layout3"
+        android:layout_width="@dimen/layout3"
+        android:src="@drawable/estrella"
+        />
+    <ImageView
+        android:layout_height="@dimen/layout3"
+        android:layout_width="@dimen/layout3"
+        android:src="@drawable/estrella"
+        />
+    <ImageView
+        android:layout_height="@dimen/layout3"
+        android:layout_width="@dimen/layout3"
+        android:src="@drawable/estrella"
+        />
+    <TextView
+        android:textSize="50sp"
+        android:layout_width="100dp"
+        android:layout_height="@dimen/layout3"
+        android:text="ptj"/>
+
+</TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:gravity="center_horizontal"
+
+        android:textSize="35dp"
+        android:text="Complete the sentence"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        />
+    <ImageView
+
+        android:src="@drawable/balon"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:text="¿what color is this ball?"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TableLayout
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TableRow>
+            <Button
+                android:layout_marginRight="80dp"
+                android:textSize="30sp"
+                android:text="Green"
+                />
+            <Button
+                android:textSize="30sp"
+                android:text="Marron"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:layout_marginRight="80dp"
+                android:textSize="30sp"
+                android:text="Orange"
+                />
+            <Button
+                android:textSize="30sp"
+                android:text="Blue"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
